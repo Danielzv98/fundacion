@@ -1,0 +1,39 @@
+.contenedormv{
+	background-color: white;
+	box-shadow: 0 0 10px;
+}
+
+.contenedormv2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.divm{
+	text-align: center;
+	width: 60%;
+}
+
+.divv{
+	text-align: center;
+	width: 60%;
+}
+
+.mision, .vision{
+	padding-bottom: 10px;
+	border-radius: 25px;
+}
+
+h2{
+	text-decoration: underline;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+
+p{
+	text-align: justify;
+	font-size: 18px;
+	font-weight: bold;
+}
