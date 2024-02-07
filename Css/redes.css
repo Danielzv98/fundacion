@@ -1,0 +1,38 @@
+.redes{
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.redes2{
+	padding-top: 20px;
+}
+
+.redes2:hover img{
+	width: 50px;
+	filter: blur(2px);
+}
+
+.redes img{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+	transition: .2s;
+}
+
+.redes img:hover img{
+	filter: blur(2px);
+}
+
+.redes a:hover img{
+	transform: translateY(3px) scale(1.05);
+	box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+	filter: none;
+}
+
+.botones{
+	display: flex;
+	justify-content: space-between;
+}

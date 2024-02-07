@@ -1,0 +1,46 @@
+.bnav{
+	display:flex;
+	position: sticky;
+	background-color: royalblue;
+}
+
+nav{
+	overflow: hidden;
+	background: royalblue;
+}
+
+ul{
+	list-style: none;
+}
+
+nav ul li a{
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+	font-weight:bold;
+}
+
+nav ul li a:hover{
+	background: #334FFB;
+}
+
+nav li{
+	display: block;
+	float:left;
+}
+
+nav ul li ul li{
+	float: none;
+}
+
+nav li ul{
+	display:none;
+	position:absolute;
+	min-width: 100px;
+}
+
+nav li:hover ul{
+	display: block;
+	background: #4960EE;
+}
