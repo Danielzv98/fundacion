@@ -1,13 +1,17 @@
-.contenedorn{
-	display: flex;
+.contenedorn{	
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	padding-top: 20px;
+	justify-content: center;
 }
 
-.i, .j, .d{
-	height: 400px;
-	flex: 1;
+.i, .d, .j{
+	/*height: 400px;
+	flex: 1;*/
 	padding: 10px;
 }
+
 
 .imgd, .imgi, .imgj{
 	width: 100%;

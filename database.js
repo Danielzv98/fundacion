@@ -1,32 +1,15 @@
 const sliderDb = [
   {
-    title:"Titulo de ejemplo uno",
-    src:"./Evidencia/1706235328745.jpg"
+    tittle:"Titulo de ejemplo uno",
+    src:"./Evidencia/n1.jpg"
   },
   {
     title:"Titulo de ejemplo dos",
-    src:"n1.jpg"
+    src:"./Evidencia/n2.jpg"
   },
   {
     title:"Titulo de ejemplo tres",
-    src:"https://source.unsplash.com/random/?cars"
-  },
-  {
-    title:"Titulo de ejemplo cuatro",
-    src:"https://source.unsplash.com/random/?bikes"
-  },
-  {
-    title:"Titulo de ejemplo cinco",
-    src:"https://source.unsplash.com/random/?houses"
-  },
-  {
-    title:"Titulo de ejemplo seis",
-    src:"https://source.unsplash.com/random/?peets"
-  },
-  {
-    title:"Titulo de ejemplo siete",
-    src:"https://source.unsplash.com/random"
+    src:"./Evidencia/n3.jpg"
   },
 
-]
-
+];

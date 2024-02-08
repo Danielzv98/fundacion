@@ -20,9 +20,7 @@ window.addEventListener('load',function(){
         state == "next" || state == null ? animationClass  = "slider-next": animationClass  = "slider-prev";
 
         document.querySelector(".slider-item").innerHTML = `
-            <div class = "item-background ${animationClass}" style = "background: url(${sliderDb[itemIndex].src}) no-repeat center/cover;"></div>
-            <div class="item-title__container">
-                <h2 class ="item-title__title">${sliderDb[itemIndex].title}</h2>
+            <div class = "item-background ${animationClass}" style = "background: url(${sliderDb[itemIndex].src}); background-size:100% 100%;"></div>
             </div>
         `;
 
