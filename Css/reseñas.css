@@ -8,6 +8,14 @@
 	display: flex;
 }
 
+.titulorc h1{
+	text-align: center;
+	font-size: 30px;
+	padding: 20px 0;
+	font-weight: 1000;
+}
+
+
 .divrc{
 	display: flex;
 	align-items: center;
@@ -42,6 +50,13 @@
 
 .contenedorrh2{
 	display: flex;
+}
+
+.titulorh h1{
+	text-align: center;
+	font-size: 30px;
+	padding: 20px 0;
+	font-weight: 1000;
 }
 
 .imgrh{
